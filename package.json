@@ -1,0 +1,53 @@
+{
+  "name": "bundle-handler",
+  "version": "1.0.0",
+  "description": "CLI tool to format, analyze, and remove packages from JS files",
+  "main": "bin/cli.js",
+  "type": "module",
+  "bin": {
+    "kz": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "eslint lib/ bin/",
+    "install-global": "npm install -g ."
+  },
+  "keywords": [
+    "javascript",
+    "cli",
+    "bundle",
+    "minify",
+    "format",
+    "analyze",
+    "tools",
+    "development"
+  ],
+  "author": "Kerolos Zakaria",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.24.5",
+    "@babel/parser": "^7.24.5",
+    "@babel/traverse": "^7.24.5",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "esbuild": "^0.21.5",
+    "pkg-up": "^5.0.0",
+    "terser": "^5.43.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bundle-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/bundle-handler/issues"
+  },
+  "homepage": "https://github.com/yourusername/bundle-handler#readme"
+}
