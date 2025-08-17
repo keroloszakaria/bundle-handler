@@ -1,6 +1,6 @@
 {
   "name": "bundle-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to format, analyze, and remove packages from JS files",
   "main": "bin/cli.js",
   "type": "module",
@@ -44,10 +44,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/bundle-handler.git"
+    "url": "https://github.com/keroloszakaria/bundle-handler.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/bundle-handler/issues"
+    "url": "https://github.com/keroloszakaria/bundle-handler/issues"
   },
-  "homepage": "https://github.com/yourusername/bundle-handler#readme"
+  "homepage": "https://kz-bundle-handler.surge.sh"
 }
